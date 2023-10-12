@@ -1,0 +1,113 @@
+header img {
+    width: 100%;
+}
+
+body {
+    text-align: justify;
+    font-family:  Georgia, 'Times New Roman', Times, serif;   
+    background-color:#F1F1F1;
+    line-height: 1.25;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    background-color:#CFDDFF;
+}
+
+ul li{
+    display: inline;
+    padding: 0px 10px;
+    justify-content: center;
+}
+
+a{
+    color:gray;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: black;
+    background-color: #648FF6;
+}
+
+h1{
+text-align: center;
+}
+
+section video {
+    width: 50%;
+    text-align: justify;
+    position: relative;
+    padding: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%
+}
+
+.divider {
+    height: 1px;
+    background-color: black;
+    margin: 10px 0;
+}
+.contenedor-footer {
+    display: flex;
+    align-items: center;
+}
+.contenedor-footer img {
+    max-width: 25%;
+    margin-right: 20px;
+}
+footer div img {
+    width: 75px;
+}
+.imagen-equipo img{
+    width: 250px;
+    text-align: justify;
+    position: relative;
+    padding: 40%;
+    padding-right: 40%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+
+}
+.imagen-equipo article {
+
+    text-align: center;
+    padding-bottom: 5%;
+    
+}
+section article h3{
+text-align: center;
+}
+
+section article img {
+padding-left: 40%;
+padding-right: 40%;
+width: 20%;
+}
+
+form{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+    border: black 5px double;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: grid;
+    place-items: center;
+    height: 70vh;
+}
+.form-container {
+    text-align: center;
+}
+input {
+    text-align: center;
+}
